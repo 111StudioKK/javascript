@@ -92,6 +92,7 @@ DO NOT USE ANY OTHER ES7 FEATURES YET
 * Switch - Case indents are set to 1.
 * Semi colon: YES
 * Single quotes only
+* camelCase variables only
 
 ####ES6 Rules
 * [prefer-template](http://eslint.org/docs/rules/prefer-template): require template literals instead of string concatenation

@@ -36,6 +36,7 @@
             "error",
             "always"
         ],
+        "camelcase": 2,
         "no-console": 1,
         "no-var": 2,
         "prefer-template": 2,
