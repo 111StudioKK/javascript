@@ -40,7 +40,7 @@ DO NOT USE ANY OTHER ES7 FEATURES YET
 ###ESLINT Rules
 
 ####Default ESLINT rules
-* [comma-dangle](http://eslint.org/docs/rules/comma-dangle): require or disallow trailing commas  (fixable)
+* [comma-dangle](http://eslint.org/docs/rules/comma-dangle): disallow trailing commas  (fixable)
 * [no-cond-assign](http://eslint.org/docs/rules/no-cond-assign): disallow assignment operators in conditional expressions 
 * [no-console](http://eslint.org/docs/rules/no-console): warns when  using `console` 
 * [no-constant-condition](http://eslint.org/docs/rules/no-constant-condition): disallow constant expressions in conditions 
