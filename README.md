@@ -95,43 +95,43 @@ DO NOT USE ANY OTHER ES7 FEATURES YET
 
 ####ES6 Rules
 * [prefer-template](http://eslint.org/docs/rules/prefer-template): require template literals instead of string concatenation
-* [no-var](http://eslint.org/docs/rules/no-var.md): require `let` or `const` instead of `var`
+* [no-var](http://eslint.org/docs/rules/no-var): require `let` or `const` instead of `var`
 
 ####React - JSX rules
 
-* [no-deprecated](docs/rules/no-deprecated.md): Prevent usage of deprecated methods
-* [no-did-mount-set-state](docs/rules/no-did-mount-set-state.md): Prevent usage of `setState` in `componentDidMount`
-* [no-did-update-set-state](docs/rules/no-did-update-set-state.md): Prevent usage of `setState` in `componentDidUpdate`
-* [no-direct-mutation-state](docs/rules/no-direct-mutation-state.md): Prevent direct mutation of `this.state`
-* [prefer-es6-class](docs/rules/prefer-es6-class.md): Enforce ES5 or ES6 class for React Components
-* [prefer-stateless-function](docs/rules/prefer-stateless-function.md): Enforce stateless React Components to be written as a pure function
-* [prop-types](docs/rules/prop-types.md): Prevent missing props validation in a React component definition
-* [react-in-jsx-scope](docs/rules/react-in-jsx-scope.md): Prevent missing `React` when using JSX
-* [require-render-return](docs/rules/require-render-return.md): Enforce ES5 or ES6 class for returning value in render function
-* [self-closing-comp](docs/rules/self-closing-comp.md): Prevent extra closing tags for components without children
-* [sort-comp](docs/rules/sort-comp.md): Enforce component methods order (Check order in the eslint file)
-* [sort-prop-types](docs/rules/sort-prop-types.md): Enforce propTypes declarations alphabetical sorting
-* [wrap-multilines](docs/rules/wrap-multilines.md): Prevent missing parentheses around multilines JSX (fixable)
-* [jsx-boolean-value](docs/rules/jsx-boolean-value.md): Enforce boolean attributes notation in JSX (fixable)
-* [jsx-closing-bracket-location](docs/rules/jsx-closing-bracket-location.md): Validate closing bracket location in JSX (fixable)
-* [jsx-curly-spacing](docs/rules/jsx-curly-spacing.md): Enforce or disallow spaces inside of curly braces in JSX attributes (fixable)
-* [jsx-equals-spacing](docs/rules/jsx-equals-spacing.md): Enforce or disallow spaces around equal signs in JSX attributes (fixable)
-* [jsx-first-prop-new-line](docs/rules/jsx-first-prop-new-line.md): Enforce position of the first prop in JSX
-* [jsx-handler-names](docs/rules/jsx-handler-names.md): Enforce event handler naming conventions in JSX
-* [jsx-indent](docs/rules/jsx-indent.md): Validate JSX indentation
-* [jsx-indent-props](docs/rules/jsx-indent-props.md): Validate props indentation in JSX (fixable)
-* [jsx-key](docs/rules/jsx-key.md): Validate JSX has key prop when in array or iterator
-* [jsx-max-props-per-line](docs/rules/jsx-max-props-per-line.md): Limit maximum of props on a single line in JSX
-* [jsx-no-bind](docs/rules/jsx-no-bind.md): Prevent usage of `.bind()` and arrow functions in JSX props
-* [jsx-no-duplicate-props](docs/rules/jsx-no-duplicate-props.md): Prevent duplicate props in JSX
-* [jsx-no-literals](docs/rules/jsx-no-literals.md): Prevent usage of unwrapped JSX strings
-* [jsx-no-target-blank](docs/rules/jsx-no-target-blank.md): Prevent usage of unsafe `target='_blank'`
-* [jsx-no-undef](docs/rules/jsx-no-undef.md): Disallow undeclared variables in JSX
-* [jsx-pascal-case](docs/rules/jsx-pascal-case.md): Enforce PascalCase for user-defined JSX components
-* [jsx-sort-props](docs/rules/jsx-sort-props.md): Enforce props alphabetical sorting
-* [jsx-space-before-closing](docs/rules/jsx-space-before-closing.md): Validate spacing before closing bracket in JSX (fixable)
-* [jsx-uses-react](docs/rules/jsx-uses-react.md): Prevent React to be incorrectly marked as unused
-* [jsx-uses-vars](docs/rules/jsx-uses-vars.md): Prevent variables used in JSX to be incorrectly marked as unused
+* [no-deprecated](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-deprecated.md): Prevent usage of deprecated methods
+* [no-did-mount-set-state](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-did-mount-set-state.md): Prevent usage of `setState` in `componentDidMount`
+* [no-did-update-set-state](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-did-update-set-state.md): Prevent usage of `setState` in `componentDidUpdate`
+* [no-direct-mutation-state](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-direct-mutation-state.md): Prevent direct mutation of `this.state`
+* [prefer-es6-class](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-es6-class.md): Enforce ES5 or ES6 class for React Components
+* [prefer-stateless-function](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-stateless-function.md): Enforce stateless React Components to be written as a pure function
+* [prop-types](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prop-types.md): Prevent missing props validation in a React component definition
+* [react-in-jsx-scope](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/react-in-jsx-scope.md): Prevent missing `React` when using JSX
+* [require-render-return](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/require-render-return.md): Enforce ES5 or ES6 class for returning value in render function
+* [self-closing-comp](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/self-closing-comp.md): Prevent extra closing tags for components without children
+* [sort-comp](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-comp.md): Enforce component methods order (Check order in the eslint file)
+* [sort-prop-types](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-prop-types.md): Enforce propTypes declarations alphabetical sorting
+* [wrap-multilines](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/wrap-multilines.md): Prevent missing parentheses around multilines JSX (fixable)
+* [jsx-boolean-value](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-boolean-value.md): Enforce boolean attributes notation in JSX (fixable)
+* [jsx-closing-bracket-location](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-closing-bracket-location.md): Validate closing bracket location in JSX (fixable)
+* [jsx-curly-spacing](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-curly-spacing.md): Enforce or disallow spaces inside of curly braces in JSX attributes (fixable)
+* [jsx-equals-spacing](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-equals-spacing.md): Enforce or disallow spaces around equal signs in JSX attributes (fixable)
+* [jsx-first-prop-new-line](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-first-prop-new-line.md): Enforce position of the first prop in JSX
+* [jsx-handler-names](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-handler-names.md): Enforce event handler naming conventions in JSX
+* [jsx-indent](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent.md): Validate JSX indentation
+* [jsx-indent-props](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent-props.md): Validate props indentation in JSX (fixable)
+* [jsx-key](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-key.md): Validate JSX has key prop when in array or iterator
+* [jsx-max-props-per-line](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-max-props-per-line.md): Limit maximum of props on a single line in JSX
+* [jsx-no-bind](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-bind.md): Prevent usage of `.bind()` and arrow functions in JSX props
+* [jsx-no-duplicate-props](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-duplicate-props.md): Prevent duplicate props in JSX
+* [jsx-no-literals](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-literals.md): Prevent usage of unwrapped JSX strings
+* [jsx-no-target-blank](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-target-blank.md): Prevent usage of unsafe `target='_blank'`
+* [jsx-no-undef](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-undef.md): Disallow undeclared variables in JSX
+* [jsx-pascal-case](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-pascal-case.md): Enforce PascalCase for user-defined JSX components
+* [jsx-sort-props](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-sort-props.md): Enforce props alphabetical sorting
+* [jsx-space-before-closing](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-space-before-closing.md): Validate spacing before closing bracket in JSX (fixable)
+* [jsx-uses-react](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-uses-react.md): Prevent React to be incorrectly marked as unused
+* [jsx-uses-vars](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-uses-vars.md): Prevent variables used in JSX to be incorrectly marked as unused
 
 
 ##TODO
