@@ -2,12 +2,17 @@
 
 ##Install
 To start linting your code, please make sure you have an ESLINT plugin install on your IDE.
-When starting a new react / react-native or node project copy the ```.eslinrc.json``` file from this repository to the root of your new project.
-
+When starting a new react / react-native or node project create a ```.eslinrc``` file with the following content :
+```
+{
+    "extends": "111studio"
+}
+```
 Then install eslint + plugins by running the following command:
 ```
-npm i --save-dev eslint eslint-plugin-react eslint-plugin-flowtype
+npm i --save-dev eslint eslint-plugin-react eslint-plugin-flowtype eslint-config-111studio
 ```
+
 
 ##ES6
 Use as much ES6 as possible.
