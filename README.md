@@ -18,7 +18,7 @@ The config uses [Eslint Plugin Compat](https://www.npmjs.com/package/eslint-plug
 
 ```javascript
 settings: {
-  targets: ['chrome >= 50', 'firefox', 'edge', 'safari >= 9', 'ie >= 11']
+   targets: ['chrome >= 50', 'firefox', 'edge', 'safari', 'ie']
 }
 
 ```

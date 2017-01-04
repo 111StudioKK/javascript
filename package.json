@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-111studio",
-  "version": "2.0.0",
+  "version": "2.0.4",
   "description": "Javascript Style Guide",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,8 @@
     "url": "https://github.com/111StudioKK/javascript/issues"
   },
   "homepage": "https://github.com/111StudioKK/javascript#readme",
-  "devDependencies": {
+  "dependencies": {
+    "babel-eslint": "^7.1.1",
     "eslint": "^3.12.2",
     "eslint-config-111studio": "^1.1.1",
     "eslint-plugin-babel": "^4.0.0",

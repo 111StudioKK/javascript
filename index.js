@@ -17,7 +17,7 @@ module.exports = {
     'plugins': [
         'react',
         'flowtype',
-        'compact'
+        'compat'
     ],
     'rules': {
         'indent': [
@@ -117,7 +117,7 @@ module.exports = {
         'it': true
     },
     settings: {
-        targets: ['chrome >= 50', 'firefox', 'edge', 'safari >= 9', 'ie >= 11'],
+        targets: ['chrome >= 50', 'firefox', 'edge', 'safari', 'ie'],
         coverage: true,
         compiler: 'babel'
     }
