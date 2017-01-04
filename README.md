@@ -8,11 +8,20 @@ When starting a new react / react-native or node project create a ```.eslinrc```
     "extends": "111studio"
 }
 ```
-Then install eslint + plugins by running the following command:
-```
-npm i --save-dev eslint eslint-plugin-react eslint-plugin-flowtype eslint-config-111studio
+Then install eslint dependencies running the following command:
+```bash
+yarn add --dev eslint-config-111studio
 ```
 
+##Browser Compatibility checks
+The config uses [Eslint Plugin Compat](https://www.npmjs.com/package/eslint-plugin-compat) with the following target :
+
+```javascript
+settings: {
+  targets: ['chrome >= 50', 'firefox', 'edge', 'safari >= 9', 'ie >= 11']
+}
+
+```
 
 ##ES6
 Use as much ES6 as possible.
@@ -21,7 +30,7 @@ You may use ES7 parsingly for:
 
 ###Decorators
 
-```
+```javascript
 class Person {
   @cantEnum
   get kidCount() { return this.children.length; }
@@ -34,7 +43,7 @@ function cantEnum(target, name, descriptor) {
 ``` 
 ###Object spread properties
 
-```
+```javascript
 let info = {fname, lname, ...rest};
 
 info; // { fname: "Hemanth", lname: "HM", location: "Earth", type: "Human" }
