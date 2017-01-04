@@ -16,7 +16,8 @@ module.exports = {
     'parser': 'babel-eslint',
     'plugins': [
         'react',
-        'flowtype'
+        'flowtype',
+        'compact'
     ],
     'rules': {
         'indent': [
@@ -36,8 +37,9 @@ module.exports = {
             'error',
             'always'
         ],
-        'max-len': ['warn', 80],
+        'max-len': ['warn', 100],
         'camelcase': 1,
+        'compat/compat': 1,
         'no-console': 1,
         'no-var': 1,
         'prefer-template': 1,
@@ -113,5 +115,10 @@ module.exports = {
         '__DEV__': true,
         'describe': true,
         'it': true
+    },
+    settings: {
+        targets: ['chrome >= 50', 'firefox', 'edge', 'safari >= 9', 'ie >= 11'],
+        coverage: true,
+        compiler: 'babel'
     }
 }
