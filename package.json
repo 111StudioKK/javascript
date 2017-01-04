@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-111studio",
-  "version": "2.0.4",
+  "version": "2.1.0",
   "description": "Javascript Style Guide",
   "main": "index.js",
   "scripts": {

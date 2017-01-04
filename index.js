@@ -89,7 +89,7 @@ module.exports = {
             }
             }],
         'react/sort-prop-types': 1,
-        'react/wrap-multilines': 1,
+        'react/jsx-wrap-multilines': 1,
         'react/jsx-boolean-value': [1, 'always'],
         'react/jsx-closing-bracket-location': 1,
         'react/jsx-curly-spacing': [1, 'always', {'allowMultiline': false}],
@@ -117,7 +117,7 @@ module.exports = {
         'it': true
     },
     settings: {
-        targets: ['chrome >= 50', 'firefox', 'edge', 'safari', 'ie'],
+        targets: ['chrome', 'firefox', 'edge', 'safari', 'ie'],
         coverage: true,
         compiler: 'babel'
     }
