@@ -91,7 +91,6 @@ module.exports = {
         'react/jsx-wrap-multilines': 1,
         'react/jsx-boolean-value': [1, 'always'],
         'react/jsx-closing-bracket-location': 1,
-        'react/jsx-curly-spacing': [1, 'always', {'allowMultiline': false}],
         'react/jsx-equals-spacing': [1, 'never'],
         'react/jsx-first-prop-new-line': [1, 'multiline'],
         'react/jsx-handler-names': 1,
