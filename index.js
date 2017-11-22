@@ -88,7 +88,6 @@ module.exports = {
                 ]
             }
             }],
-        'react/sort-prop-types': 1,
         'react/jsx-wrap-multilines': 1,
         'react/jsx-boolean-value': [1, 'always'],
         'react/jsx-closing-bracket-location': 1,
