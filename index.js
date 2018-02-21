@@ -5,7 +5,6 @@ module.exports = {
         'es6': true
     },
     'extends': 'eslint:recommended',
-    'installedESLint': true,
     'parserOptions': {
         'ecmaFeatures': {
             'experimentalObjectRestSpread': true,
